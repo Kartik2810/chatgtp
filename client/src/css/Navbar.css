@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lato&family=Montserrat:wght@200&family=Roboto+Mono:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.navbar{
+    background-color: white;
+    height: 30vh;
+    color: green;
+    box-shadow: black 1px 1px 2px;
+}
+.main-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    font-size: 70px;
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.signup{
+    margin-right: 30px;
+    cursor: pointer;
+    text-shadow: black 1px 1px 1px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.signup:hover{
+    opacity: 1;
+}
+.signin{
+    margin-left: 30px;
+    cursor: pointer;
+    text-shadow: black 1px 1px 1px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.signin:hover{
+    opacity: 1;
+}
+.logout-btn{
+    margin-right: 2rem;
+    text-align: end;
+    
+}
+    #btn-logout{
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin-bottom:0.5rem;
+    font-weight: bold;
+    background-color: rgb(219, 27, 27);
+    color: white;
+    border: none;
+    border-radius:0.5rem;
+    cursor: pointer;
+    }
